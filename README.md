@@ -69,3 +69,8 @@ Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or
 ### `serverless:remove`
 
 Remove an entire stack configured in `serverless.yml` via CloudFormation.
+
+## Links
+
+- [CloudFront URL](https://d1p2umhxu1bbva.cloudfront.net)
+- [S3-website](https://shop-react-redux-cloudfront-2023.s3.amazonaws.com/index.html) (expected 403 Access Denied error)
