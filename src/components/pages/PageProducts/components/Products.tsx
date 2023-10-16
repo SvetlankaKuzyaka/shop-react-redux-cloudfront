@@ -25,7 +25,11 @@ export default function Products() {
           >
             <CardMedia
               sx={{ pt: "56.25%" }}
-              image={`https://source.unsplash.com/random?sig=${index}`}
+              image={
+                // @ts-expect-error: Property 'imageUrl' does not exist on type '{ id: string | undefined; title: string; description: string; price: number; }'
+                product.imageUrl ||
+                `https://source.unsplash.com/random?sig=${index}`
+              }
               title="Image title"
             />
             <CardContent sx={{ flexGrow: 1 }}>

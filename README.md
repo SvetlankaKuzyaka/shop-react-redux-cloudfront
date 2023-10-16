@@ -72,5 +72,5 @@ Remove an entire stack configured in `serverless.yml` via CloudFormation.
 
 ## Links
 
-- [CloudFront URL](https://d1p2umhxu1bbva.cloudfront.net)
-- [S3-website](https://shop-react-redux-cloudfront-2023.s3.amazonaws.com/index.html) (expected 403 Access Denied error)
+- [CloudFront URL](https://dq2xjejz7n3zt.cloudfront.net)
+- [S3-website](https://shop-react-redux-cloudfront-2023.s3.eu-west-1.amazonaws.com/index.html) (expected 403 Access Denied error)
